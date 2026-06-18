@@ -1,6 +1,6 @@
 const logger = require("../utils/logger");
 const { uploadMediaToCloudinary } = require("../utils/cloudinary");
-const Media = require("../models/media");
+const Media = require("../models/Media");
 
 const uploadMedia = async (req, res) => {
   logger.info("Received request to upload media.");
